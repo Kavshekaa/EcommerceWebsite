@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+  }
+  
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(  https://www.hollywoodreporter.com/wp-content/uploads/2023/05/chanel_cruise-2023-24-show_finale-pictures-copyright-chanel-63-1-HD-H-2023.jpg?w=1296);
+            
+        }
+        .container {
+            width: 300px;
+            padding: 16px;
+            background-color: rgb(247, 252, 255);
+            margin: 0 auto;
+            margin-top: 100px;
+            box-shadow: 0 4px 6px rgba(166, 165, 165, 0.1);
+        }
+        .logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        .container h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .container input[type="text"], .container input[type="password"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #090808;
+            border-radius: 4px;
+        }
+        .container input[type="submit"] {
+            background-color: #bababa;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 4px;
+        }
+        .container input[type="submit"]:hover {
+            background-color: #8c8c8c;
+        }
+        .container a {
+            color: #000;
+            text-decoration: none;
+        }
+        .container a:hover {
+            color: #000;
+            text-decoration: underline;
+        }
